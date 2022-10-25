@@ -1,22 +1,48 @@
 body{
     background-color: aliceblue;
+    margin: 0;
 }
 
-#barra{
+.barra{
     height: 80px;
     background-image: url('img/pattern.png');
     background-color:aqua;
     background-size: 300px;
 }
 
+#logo{
+  height: 60px;
+  vertical-align: middle;
+}
+
+address{
+  font-style: normal;
+  font-size: 18px;
+}
+
+.text-gray{
+  color: gray;
+}
+
+.text-small{
+  font-size: 12px;
+}
+
+/* UTILS*/
+
 .container{
     width: 1050px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .logo{
-    width: 200px;
-    height: 50px;
+  vertical-align: middle;
+  height: 50px;
+}
+
+ul{
+padding-inline-start: 0;
+list-style-position: inside;
 }
 
 table{
@@ -28,6 +54,7 @@ table{
 }
 
 th{
+    text-align: left;
     background-color: rgb(68, 185, 253);
     color: aliceblue;
 }
@@ -38,4 +65,25 @@ th{
 
 .style-color{
     background-color: yellow;
+}
+
+.related-article{
+  width: 200px;
+  height: 190px;
+  color: white;
+  margin-bottom: 20px;
+  background-size: cover;
+}
+
+#monitor-image{
+  background-image: url('img/monitor.jpg');
+}
+
+#graph-image{
+  background-image: url('img/graph.jpg');
+}
+
+.related-text{
+  font-size: 18px;
+  margin: 0;
 }

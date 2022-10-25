@@ -8,21 +8,27 @@
         <title>The Booleaner</title>
     </head>
     <body>
-        <div id="barra"></div>
+        <!--Logo e testo-->
 
+        <div class="barra">
+        <img id="logo" src="img/logo.svg" alt="logo">
+        </div>
+        
         <div class="container">
             <header>
-                <img class="logo" src="img/logo.svg" alt="Logo">
-                <!--Testo e immagini-->
+
                 <h1>Internet deve essere al servizio del "bene pubblico":
                 il manifesto di Tim Berners Lee
                 </h1>
-                <p>Scritto da <span style="color: rgb(104, 210, 252);">The Booleaners</span> </p>
-                <p>il 20/10/2020</p>
+                <address>Scritto da <span style="color: rgb(104, 210, 252);">The Booleaners</span> </address>
+                <p class="text-gray text-small" datetime="2020/10/20">il 20/10/2020</p>
                 <img src="img/tim-1.jpg" alt="Photo">
                 <img src="img/tim-2.jpg" alt="Photo">
+              <figcaption class="text-small">
                 <p>1st photo: Jhon S. and James L.Knight Foundation, by Scott Henrichsen</p>
-                <p>2nd Photo: Tim Berners Lee, by Paul Clarke</p>             
+                <p>2nd Photo: Tim Berners Lee, by Paul Clarke</p>
+              </figcaption>
+
             </header>
 
             <main>
@@ -30,7 +36,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="style-color">Laborum soluta reprehenderit ratione neque sit?</span> Esse, optio. Et excepturi accusamus veniam a nam nihil quaerat tempore. Dolores numquam unde adipisci cupiditate.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus eum esse corporis voluptates aspernatur facere asperiores at deserunt labore est temporibus rem, ratione incidunt explicabo repudiandae in consectetur quaerat dolorum!
                 </p>
-                
+
                 <div>
                     <section>
                         <ul>
@@ -45,7 +51,7 @@
                                 alias modi vitae nemo, adipisci sed mollitia id.</li>
                         </ul>
                     </section>
-                    <!--Table-->    
+                    <!--Table-->
                     <table>
                         <thead>
                             <tr>
@@ -63,7 +69,7 @@
                                 perspiciatis nihil ab qui illo consequuntur omnis doloribus. Quaerat?
                                 </td>
                             </tr>
-                    
+
                             <tr>
                                 <td>Lorem ipsum dolor</td>
                                 <td>Lorem ipsum dolor</td>
@@ -72,7 +78,7 @@
                                 perspiciatis nihil ab qui illo consequuntur omnis doloribus. Quaerat?
                                 </td>
                             </tr>
-                    
+
                             <tr class="color-table">
                                 <td>Lorem ipsum dolor</td>
                                 <td>Lorem ipsum dolor</td>
@@ -84,25 +90,25 @@
                         </tbody>
                     </table>
                 </div>
-                
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellendus doloribus
                      natus qui voluptatum in nihil nobis tenetur cupiditate, magnam,
                      <span class="style-color">Laborum soluta reprehenderit ratione neque Laborum soluta reprehenderit voluptates.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</span> . Dolorum exercitationem 
-                     dicta nihil voluptatibus repellat minima nulla recusandae 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</span> . Dolorum exercitationem
+                     dicta nihil voluptatibus repellat minima nulla recusandae
                      corporis quo officia amet deserunt, iusto, totam doloribus ratione laboriosam eius alias laudantium!
                 </p>
             </main>
-          
-            <h2>Potrebbero interessarti</h2>
+            <footer>
+              <h3 class="text-gray">Potrebbero interessarti</h3>
+              <div id="monitor-image" class="related-article">
+                <h4 class="related-text">Lorem ipsum dolor</h4>
+              </div>
 
-            <div>
-                <img src="img/monitor.jpg" alt="advertising">
+            <div id="graph-image" class="related-article">
+                <h4 class="related-text">Lorem ipsum dolor</h4>
             </div>
-
-            <div>
-                <img src="img/graph.jpg" alt="advertising">
-            </div>
+            </footer>
         </div>
     </body>
 </html>
